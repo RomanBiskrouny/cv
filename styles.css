@@ -1,0 +1,239 @@
+/*ALL*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&display=swap');
+
+body {
+    background-color:#f5f5ff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #3d3d66;
+}
+
+.container {
+    margin: auto;
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gray-card {
+    margin-bottom: 27px;
+    padding: 0px 15px 0px 15px;
+    border-right: 3px solid transparent;
+}
+
+.blue-card {
+    background-color: #ebebff;
+    margin-bottom: 25px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 2px solid #e6e6f0;
+    border-right: 3px solid #e6e6f0;
+    border-radius: 3em;
+    border-top-left-radius: 20px;
+}
+
+/*HEADING WITH LOGO*/
+.heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.heading h3{
+    margin: 0;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*INFORMATION*/
+.info {
+    display: flex;
+    border-bottom: 2px solid #e6e6f0;
+    border-right: 3px solid #e6e6f0;
+    border-radius: 3em;
+    padding: 0px 40px 20px 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .heading {
+        justify-content: center;
+    }
+}
+
+.info-about p{
+    margin: 0;
+    font-style: italic;
+    color: #5b5b87;
+    border-bottom: 1px solid #e6e6f0;
+}
+
+.info-about {
+    margin-left: 30px;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 3em;
+    box-shadow: 50px 0px 500px #a0a0a8;
+    margin-top: 21.44px;
+}
+
+.vk {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.telegram {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.instagram {
+    width: 30px;
+}
+
+/*EDUCATION*/
+.gray-card table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.gray-card td:nth-child(2),
+.gray-card td:nth-child(3){
+    width: 25%;
+}
+
+/*EXPERIENCE*/
+.blue-card table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.blue-card td:nth-child(2),
+.blue-card td:nth-child(3){
+    width: 25%;
+}
+
+.blue-card .table-work tr:last-child td {
+    padding-top: 10px;
+}
+
+/*LANGUAGES*/
+.gray-card ul{
+    margin: 0;
+    list-style: circle;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+/*HOBBIES*/
+.blue-card ul:nth-child(1) {
+    margin: 0;
+    list-style: square;
+    padding-left: 20px;
+}
+
+/*GITHUB*/
+.github-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.portfolio h4 {
+    margin: 0;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*CONTACT*/
+.contact {
+    margin-bottom: 22px;
+    padding: 0px 15px 0px 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    color: #3d3d66;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.form-group input,
+.form-group textarea {
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    color: #3d3d66;
+    
+    padding: 10px 0px 10px 20px;
+    border-bottom: 2px solid #e6e6f0;
+    border-radius: 20px 3em 3em 3em;
+    border-bottom: 2px solid #e6e6f0;
+    border-right: 3px solid #e6e6f0;
+
+    margin-left: 20px;
+}
+
+.btn input {
+    font-family: inherit;
+    font-size: inherit;
+    color: #3d3d66;
+    border-radius: 20px 3em 3em 3em;
+    background: #ebebff;
+    border: none;
+    border-bottom: 2px solid #e6e6f0;
+    border-right: 3px solid #e6e6f0;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.row {
+    display: flex;
+}
+
+.row >.form-group {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.form-group {
+    margin-right: 30px;
+    margin-bottom: 10px;
+} 
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
