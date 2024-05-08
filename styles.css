@@ -46,6 +46,10 @@ a {
     margin: 0;
 }
 
+h0 {
+    margin: 0;
+}
+
 .logo {
     width: 20px;
     height: 20px;
@@ -128,7 +132,7 @@ a {
     width: 25%;
 }
 
-.blue-card .table-work tr:last-child td {
+.blue-card .table-work td {
     padding-top: 10px;
 }
 
